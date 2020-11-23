@@ -9,8 +9,8 @@ def pass_gen(length):
     password=''
     var=[digits,leters,leters_2,symbols]
 # Генерация пароля
-    if length<12:
-        return print('Ошибка! Пароль должен иметь не менее 12 символов')
+    if length<8:
+        return print('Ошибка! Пароль должен иметь не менее 8 символов')
     else:
         password+=random.choice(digits)
         password+=random.choice(leters)
@@ -19,4 +19,4 @@ def pass_gen(length):
         while len(password)<length:
             password+=random.choice(var[random.randint(0,3)])
         print(password)
-pass_gen(12)
+pass_gen(8)
