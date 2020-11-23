@@ -11,13 +11,13 @@
 
 Позднее, я написал v.2 с такими правилами:  
 
-:radio_button: должен быть не меньше 12 символов  
+:radio_button: должен быть не меньше 8 символов  
 :radio_button: должен содержать как минимум одну заглавную букву  
 :radio_button: должен содержать как минимум одну строчную букву  
 :radio_button: должен содержать как минимум одну цифру  
 :radio_button: должен содержать как минимум один спец-символ (!&? и прочие)   
 
-:bulb: Новые изменения вероятнее всего будут.    
+:bulb: Новые изменения будут.    
 В планах: написать более сложный код генерации.  
 
 --------------------------------------------------------------------------------------------
@@ -33,7 +33,7 @@ This is a simple program for making up passwords, here are the rules that I foll
 :radio_button: must be of any length  
 :radio_button: must consist of any printed characters  
 
-In this case, the program does not meet the new rules for different sites:   
+Later, I wrote v.2 with these rules:   
 
 :radio_button: must be at least 8 characters   
 :radio_button: must contain at least one uppercase letter   
@@ -41,5 +41,5 @@ In this case, the program does not meet the new rules for different sites:
 :radio_button: must contain at least one digit   
 :radio_button: must contain at least one special character (!&? and other)   
 
-:bulb: The new changes are likely to be.   
-Plans: to write more complex code generation and for all  
+:bulb: There will be new changes.  
+Plans: write a more complex generation code.  
